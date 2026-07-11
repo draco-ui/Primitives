@@ -1,0 +1,21 @@
+{
+    "base": {
+        "typography": {
+            "size": {
+                "$type": "dimension",
+                "275": {
+                    "$value": {
+                        "value": 11,
+                        "unit": "px"
+                    }
+                },
+                "300": {
+                    "$value": {
+                        "value": 12,
+                        "unit": "px"
+                    }
+                }
+            }
+        }
+    }
+}

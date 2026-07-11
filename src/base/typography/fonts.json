@@ -1,0 +1,18 @@
+{
+  "base": {
+    "typography": {
+      "font": {
+        "$type": "fontFamily",
+        "monospace": {
+          "$value": "'Geist Mono', 'ui-monospace', 'SFMono-Regular', 'SF Mono', 'Menlo', 'Consolas', 'Liberation Mono', monospace"
+        },
+        "sans": {
+          "$value": "'Geist Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+        },
+        "default": {
+          "$value": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+        }
+      }
+    }
+  }
+}

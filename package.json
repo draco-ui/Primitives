@@ -1,0 +1,23 @@
+{
+  "name": "@dracoui/primitives",
+  "version": "0.0.0",
+  "description": "Draco Design System — primitive design tokens",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tz build",
+    "dev": "tz build --watch",
+    "lint": "tz lint"
+  },
+  "devDependencies": {
+    "@terrazzo/cli": "^2.4.0",
+    "@terrazzo/json-schema-tools": "^0.2.1",
+    "@terrazzo/plugin-css": "^2.4.0",
+    "@terrazzo/plugin-js": "^2.4.0",
+    "@terrazzo/plugin-sass": "^2.4.0",
+    "@terrazzo/plugin-tailwind": "^2.4.0"
+  }
+}

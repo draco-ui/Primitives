@@ -1,0 +1,10 @@
+{
+    "font": {
+        "size": {
+            "$type": "dimension",
+            "xs": {
+                "$value": "{base.typography.size.275}"
+            }
+        }
+    }
+}

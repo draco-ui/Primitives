@@ -1,0 +1,45 @@
+{
+    "color": {
+        "$type": "color",
+        "button": {
+            "primary": {
+                "background": {
+                    "$value": "{product.brand.color.primary}",
+                    "hovered": {
+                        "$value": "{product.brand.color.primary.hovered}"
+                    },
+                    "disabled": {
+                        "$value": "{base.color.neutral.100}",
+                        "$extensions": {
+                            "mode": {
+                                "dark": "{base.color.neutral.900}"
+                            }
+                        }
+                    }
+                },
+                "foreground": {
+                    "$value": "{base.color.neutral.950}"
+                },
+                "border": {
+                    "$value": "#202020",
+                    "$extensions": {
+                        "mode": {
+                            "dark": "{product.brand.color.primary}"
+                        }
+                    }
+                },
+                "shadow": {
+                    "$value": "#202020",
+                    "$extensions": {
+                        "mode": {
+                            "dark": "#363D10"
+                        }
+                    }
+                }
+            },
+            "secondary": {
+
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "base": {
+    "border": {
+      "radius": {
+        "$type": "dimension",
+        "5": {
+          "$value": {
+            "value": 5,
+            "unit": "px"
+          }
+        },
+        "6": {
+          "$value": {
+            "value": 6,
+            "unit": "px"
+          }
+        },
+        "8": {
+          "$value": {
+            "value": 8,
+            "unit": "px"
+          }
+        },
+        "12": {
+          "$value": {
+            "value": 12,
+            "unit": "px"
+          }
+        },
+        "full": {
+          "$value": {
+            "value": 9999,
+            "unit": "px"
+          }
+        }
+      }
+    }
+  }
+}
