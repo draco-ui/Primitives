@@ -1,15 +1,15 @@
 {
-    "text": {
-        "$type": "typography",
-        "body": {
-            "extra-small": {
-                "$value": {
-                    "fontSize": "{font.size.xs}",
-                    "fontWight": "{font.weight.regular}",
-                    "fontStyle": "normal",
-                    "textTransform": "none"
-                }
-            }
+  "text": {
+    "$type": "typography",
+    "body": {
+      "extra-small": {
+        "$value": {
+          "fontSize": "{font.size.xs}",
+          "fontWight": "{font.weight.regular}",
+          "fontStyle": "normal",
+          "textTransform": "none"
         }
+      }
     }
+  }
 }

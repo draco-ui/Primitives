@@ -4,20 +4,35 @@
   "description": "Draco Design System — primitive design tokens",
   "license": "MIT",
   "type": "module",
+  "packageManager": "pnpm@11.9.0",
   "files": [
     "dist"
   ],
+  "main": "./dist/js/tokens.js",
+  "module": "./dist/js/tokens.js",
+  "sass": "./dist/scss/_tokens.scss",
+  "style": "./dist/css/tokens.css",
+  "exports": {
+    ".": {
+      "sass": "./dist/scss/_tokens.scss",
+      "style": "./dist/css/tokens.css",
+      "import": "./dist/js/tokens.js",
+      "default": "./dist/js/tokens.js"
+    },
+    "./css": "./dist/css/tokens.css",
+    "./scss": "./dist/scss/_tokens.scss",
+    "./compose": "./dist/compose/Tokens.kt",
+    "./package.json": "./package.json"
+  },
   "scripts": {
-    "build": "tz build",
-    "dev": "tz build --watch",
-    "lint": "tz lint"
+    "build": "style-dictionary build --config dictionary.config.ts",
+    "clean": "rm -rf dist"
   },
   "devDependencies": {
-    "@terrazzo/cli": "^2.4.0",
-    "@terrazzo/json-schema-tools": "^0.2.1",
-    "@terrazzo/plugin-css": "^2.4.0",
-    "@terrazzo/plugin-js": "^2.4.0",
-    "@terrazzo/plugin-sass": "^2.4.0",
-    "@terrazzo/plugin-tailwind": "^2.4.0"
+    "colorjs.io": "^0.6.1",
+    "postcss": "^8.5.16",
+    "prettier": "^3.9.5",
+    "style-dictionary": "^5.5.0",
+    "style-dictionary-utils": "^6.0.1"
   }
 }

@@ -2,7 +2,6 @@
   "base": {
     "border": {
       "radius": {
-        "$type": "dimension",
         "5": {
           "$value": {
             "value": 5,
@@ -27,6 +26,7 @@
             "unit": "px"
           }
         },
+        "$type": "dimension",
         "full": {
           "$value": {
             "value": 9999,

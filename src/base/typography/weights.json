@@ -2,7 +2,6 @@
   "base": {
     "typography": {
       "weight": {
-        "$type": "fontWeight",
         "300": {
           "$value": 300
         },
@@ -17,8 +16,9 @@
         },
         "700": {
           "$value": 700
-        }
+        },
+        "$type": "fontWeight"
       }
     }
-    }
+  }
 }

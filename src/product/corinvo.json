@@ -1,0 +1,32 @@
+{
+  "product": {
+    "corinvo": {
+      "color": {
+        "$type": "color",
+        "primary": {
+          "default": {
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [0.9412, 0.9843, 0.1569],
+              "alpha": 1
+            }
+          },
+          "hovered": {
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [0.8471, 0.8863, 0.1412],
+              "alpha": 1
+            }
+          },
+          "disabled": {
+            "$value": {
+              "colorSpace": "srgb",
+              "components": [0.9608, 0.9725, 0.8314],
+              "alpha": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
