@@ -24,10 +24,31 @@
             "alpha": 1
           }
         },
+        "300": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.7098,0.7098,0.7098],
+            "alpha": 1
+          }
+        },
+        "500": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.2706,0.2706,0.2706],
+            "alpha": 1
+          }
+        },
         "550": {
           "$value": {
             "colorSpace": "srgb",
             "components": [0.2314,0.2314,0.2314],
+            "alpha": 1
+          }
+        },
+        "600": {
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [0.2039,0.2039,0.2039],
             "alpha": 1
           }
         },

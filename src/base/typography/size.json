@@ -9,6 +9,12 @@
             "unit": "px"
           }
         },
+        "287": {
+          "$value": {
+            "value": 11.5,
+            "unit": "px"
+          }
+        },
         "300": {
           "$value": {
             "value": 12,
