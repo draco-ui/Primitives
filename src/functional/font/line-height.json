@@ -1,0 +1,22 @@
+{
+    "font": {
+        "line-height": {
+            "$type": "dimension",
+            "tight": {
+                "$value": "{base.typography.height.400}"
+            },
+            "snug": {
+                "$value": "{base.typography.height.500}"
+            },
+            "normal": {
+                "$value": "{base.typography.height.600}"
+            },
+            "relaxed": {
+                "$value": "{base.typography.height.700}"
+            },
+            "loose": {
+                "$value": "{base.typography.height.800}"
+            }
+        }
+    }
+}

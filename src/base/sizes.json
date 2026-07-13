@@ -1,6 +1,7 @@
 {
   "base": {
     "size": {
+      "$type": "dimension",
       "4": {
         "$value": {
           "value": 4,
@@ -60,8 +61,7 @@
           "value": 40,
           "unit": "px"
         }
-      },
-      "$type": "dimension"
+      }
     }
   }
 }

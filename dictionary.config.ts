@@ -52,7 +52,7 @@ export default {
           format: "css",
           usesDtcg: true,
           dictionary: dict,
-          outputReferences: true,
+          outputReferences: (token: any): boolean => token.$type !== "typography",
           formatting: {
             indentation: "  ",
             commentStyle: "long",

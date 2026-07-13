@@ -5,10 +5,10 @@
       "system": {
         "$value": "{base.typography.font.default}"
       },
-      "sans-serif": {
+      "sans": {
         "$value": "{base.typography.font.sans}"
       },
-      "monospace": {
+      "mono": {
         "$value": "{base.typography.font.monospace}"
       }
     }
