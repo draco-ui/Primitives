@@ -1,0 +1,9 @@
+{
+    "border": {
+        "radius": {
+            "small": {
+                "$value": "{base.border.radius.5}"
+            }
+        }
+    }
+}

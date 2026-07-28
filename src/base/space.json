@@ -1,25 +1,26 @@
 {
   "base": {
     "space": {
+      "$type": "dimension",
       "0": {
         "$value": {
           "value": 0,
           "unit": "px"
         }
       },
-      "1": {
+      "025": {
         "$value": {
           "value": 1,
           "unit": "px"
         }
       },
-      "2": {
+      "050": {
         "$value": {
           "value": 2,
           "unit": "px"
         }
       },
-      "4": {
+      "100": {
         "$value": {
           "value": 4,
           "unit": "px"
@@ -108,8 +109,7 @@
           "value": 128,
           "unit": "px"
         }
-      },
-      "$type": "dimension"
+      }
     }
   }
 }
