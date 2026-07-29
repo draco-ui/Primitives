@@ -1,15 +1,15 @@
 {
     control: {
-        xsmall: {
+        large: {
             $type: "dimension",
             gap: {
-                $value: "{base.space.100}"
+                $value: "{base.space.150}"
             },
             size: {
-                $value: "{base.size.500}"
+                $value: "{base.size.800}"
             },
             "padding-inline": {
-                $value: "{base.space.200}"
+                $value: "{base.space.300}"
             }
         }
     }   

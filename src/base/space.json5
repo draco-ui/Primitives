@@ -26,85 +26,91 @@
           unit: "px"
         }
       },
-      "6": {
+      "150": {
         $value: {
           value: 6,
           unit: "px"
         }
       },
-      "8": {
+      "200": {
         $value: {
           value: 8,
           unit: "px"
         }
       },
-      "12": {
+      "250": {
+        $value: {
+          value: 10,
+          unit: "px"
+        }
+      },
+      "300": {
         $value: {
           value: 12,
           unit: "px"
         }
       },
-      "16": {
+      "400": {
         $value: {
           value: 16,
           unit: "px"
         }
       },
-      "20": {
+      "500": {
         $value: {
           value: 20,
           unit: "px"
         }
       },
-      "24": {
+      "600": {
         $value: {
           value: 24,
           unit: "px"
         }
       },
-      "32": {
+      "800": {
         $value: {
           value: 32,
           unit: "px"
         }
       },
-      "40": {
+      "1000": {
         $value: {
           value: 40,
           unit: "px"
         }
       },
-      "48": {
+      "1200": {
         $value: {
           value: 48,
           unit: "px"
         }
       },
-      "64": {
+      "1600": {
         $value: {
           value: 64,
           unit: "px"
         }
       },
-      "80": {
+      "2000": {
         $value: {
           value: 80,
           unit: "px"
         }
       },
-      "96": {
+      "2400": {
         $value: {
           value: 96,
           unit: "px"
         }
       },
-      "112": {
+      "2800": {
         $value: {
           value: 112,
           unit: "px"
         }
       },
-      "128": {
+      "3200": {
         $value: {
           value: 128,
           unit: "px"

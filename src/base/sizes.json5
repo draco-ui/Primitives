@@ -2,67 +2,73 @@
   base: {
     size: {
       $type: "dimension",
-      "4": {
+      "100": {
         $value: {
           value: 4,
           unit: "px"
         }
       },
-      "6": {
+      "150": {
         $value: {
           value: 6,
           unit: "px"
         }
       },
-      "8": {
+      "200": {
         $value: {
           value: 8,
           unit: "px"
         }
       },
-      "12": {
+      "300": {
         $value: {
           value: 12,
           unit: "px"
         }
       },
-      "16": {
+      "400": {
         $value: {
           value: 16,
           unit: "px"
         }
       },
-      "20": {
+      "500": {
         $value: {
           value: 20,
           unit: "px"
         }
       },
-      "24": {
+      "600": {
         $value: {
           value: 24,
           unit: "px"
         }
       },
-      "26": {
+      "650": {
         $value: {
           value: 26,
           unit: "px"
         }
       },
-      "32": {
+      "750": {
+        $value: {
+          value: 30,
+          unit: "px"
+        }
+      },
+      "800": {
         $value: {
           value: 32,
           unit: "px"
         }
       },
-      "38": {
+      "950": {
         $value: {
           value: 38,
           unit: "px"
         }
       },
-      "40": {
+      "1000": {
         $value: {
           value: 40,
           unit: "px"

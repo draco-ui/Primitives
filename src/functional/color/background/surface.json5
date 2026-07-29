@@ -5,6 +5,12 @@
                 $type: "color",
                 success: {
                     $value: "{base.color.green.550}"
+                },
+                primary: {
+                    $value: "{base.color.neutral.750}"
+                },
+                secondary: {
+                    $value: "{base.color.neutral.650}"
                 }
             }
         }
