@@ -1,0 +1,19 @@
+{
+    border: {
+        width: {
+            $type: "dimension",
+            default: {
+                $value: "{border.width.thin}"
+            },
+            thin: {
+                $value: "{base.border.width.025}"
+            },
+            thick: {
+                $value: "{base.border.width.050}"
+            },
+            thicker: {
+                $value: "{base.border.width.100}"
+            }
+        }
+    }
+}

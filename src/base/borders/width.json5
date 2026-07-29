@@ -1,0 +1,27 @@
+{
+  base: {
+    border: {
+      width: {
+        $type: "dimension",
+        "025": {
+          $value: {
+            value: 1,
+            unit: "px"
+          }
+        },
+        "050": {
+          $value: {
+            value: 2,
+            unit: "px"
+          }
+        },
+        "100": {
+          $value: {
+            value: 4,
+            unit: "px"
+          }
+        }
+      }
+    }
+  }
+}

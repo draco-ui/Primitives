@@ -1,0 +1,12 @@
+{
+    color: {
+        background: {
+            surface: {
+                $type: "color",
+                success: {
+                    $value: "{base.color.green.550}"
+                }
+            }
+        }
+    }
+}

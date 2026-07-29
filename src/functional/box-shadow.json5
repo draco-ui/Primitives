@@ -1,0 +1,62 @@
+{
+    "box-shadow": {
+        $type: "shadow",
+        thin: {
+            $value: {
+                inset: true,
+                offsetX: {
+                    value: 0,
+                    unit: "px"
+                },
+                offsetY: {
+                    value: 0,
+                    unit: "px"
+                },
+                blur: {
+                    value: 0,
+                    unit: "px"
+                },
+                spread: "{border.width.thin}",
+                color: "currentColor"
+            }
+        },
+        thicker: {
+            $value: {
+                inset: true,
+                offsetX: {
+                    value: 0,
+                    unit: "px"
+                },
+                offsetY: {
+                    value: 0,
+                    unit: "px"
+                },
+                blur: {
+                    value: 0,
+                    unit: "px"
+                },
+                spread: "{border.width.thicker}",
+                color: "currentColor"
+            }
+        },
+        thick: {
+            $value: {
+                inset: true,
+                offsetX: {
+                    value: 0,
+                    unit: "px"
+                },
+                offsetY: {
+                    value: 0,
+                    unit: "px"
+                },
+                blur: {
+                    value: 0,
+                    unit: "px"
+                },
+                spread: "{border.width.thick}",
+                color: "currentColor"
+            }
+        }
+    }
+}

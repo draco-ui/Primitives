@@ -1,0 +1,17 @@
+{
+    "outline-focus": {
+        $type: "dimension",
+        offset: {
+            $value: {
+                value: -2,
+                unit: "px"
+            }
+        },
+        width: {
+            $value: {
+                value: 2,
+                unit: "px"
+            }
+        }
+    }
+}

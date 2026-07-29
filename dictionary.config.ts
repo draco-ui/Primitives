@@ -6,10 +6,11 @@ import prettier from "prettier";
 import { formattedVariables } from "style-dictionary/utils";
 
 import type { Root } from 'postcss';
+import type { TransformedToken } from "style-dictionary";
 
 export default {
   usesDtcg: true,
-  source: ["src/**/*.json"],
+  source: ["src/**/*.json5"],
   log: {
     errors: {
       brokenReferences: "console",
@@ -52,7 +53,7 @@ export default {
           format: "css",
           usesDtcg: true,
           dictionary: dict,
-          outputReferences: (token: any): boolean => token.$type !== "typography",
+          outputReferences: (token: TransformedToken): boolean => !["typography", "shadow"].includes(token.$type),
           formatting: {
             indentation: "  ",
             commentStyle: "long",

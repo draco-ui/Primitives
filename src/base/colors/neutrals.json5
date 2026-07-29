@@ -1,0 +1,93 @@
+{
+  base: {
+    color: {
+      neutral: {
+        $type: "color",
+        "0": {
+          $value: {
+            colorSpace: "srgb",
+            components: [1,1,1],
+            alpha: 1
+          }
+        },
+        "75": {
+          $value: {
+            colorSpace: "srgb",
+            components: [0.9451,0.9451,0.9451],
+            alpha: 1
+          }
+        },
+        "100": {
+          $value: {
+            colorSpace: "srgb",
+            components: [0.9294,0.9294,0.9294],
+            alpha: 1
+          }
+        },
+        "300": {
+          $value: {
+            colorSpace: "srgb",
+            components: [0.7098,0.7098,0.7098],
+            alpha: 1
+          }
+        },
+        "500": {
+          $value: {
+            colorSpace: "srgb",
+            components: [0.2706,0.2706,0.2706],
+            alpha: 1
+          }
+        },
+        "550": {
+          $value: {
+            colorSpace: "srgb",
+            components: [0.2314,0.2314,0.2314],
+            alpha: 1
+          }
+        },
+        "600": {
+          $value: {
+            colorSpace: "srgb",
+            components: [0.2039,0.2039,0.2039],
+            alpha: 1
+          }
+        },
+        "650": {
+          $value: {
+            colorSpace: "srgb",
+            components: [0.1608,0.1608,0.1608],
+            alpha: 1
+          }
+        },
+        "750": {
+          $value: {
+            colorSpace: "srgb",
+            components: [0.1176,0.1176,0.1176],
+            alpha: 1
+          }
+        },
+        "800": {
+          $value: {
+            colorSpace: "srgb",
+            components: [0.0863,0.0863,0.0863],
+            alpha: 1
+          }
+        },
+        "900": {
+          $value: {
+            colorSpace: "srgb",
+            components: [0.0706,0.0706,0.0706],
+            alpha: 1
+          }
+        },
+        "950": {
+          $value: {
+            colorSpace: "srgb",
+            components: [0.0392,0.0392,0.0392],
+            alpha: 1
+          }
+        }
+      }
+    }
+  }
+}

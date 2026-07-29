@@ -1,0 +1,22 @@
+{
+    border: {
+        radius: {
+            $type: "dimension",
+            default: {
+                $value: "{border.radius.medium}"
+            },
+            small: {
+                $value: "{base.border.radius.125}"
+            },
+            medium: {
+                $value: "{base.border.radius.200}"
+            },
+            large: {
+                $value: "{base.border.radius.300}"
+            },
+            full: {
+                $value: "{base.border.radius.full}"
+            }
+        }
+    }
+}

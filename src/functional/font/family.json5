@@ -1,0 +1,16 @@
+{
+  font: {
+    family: {
+      $type: "fontFamily",
+      system: {
+        $value: "{base.typography.font.default}"
+      },
+      sans: {
+        $value: "{base.typography.font.sans}"
+      },
+      mono: {
+        $value: "{base.typography.font.monospace}"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    font: {
+        "letter-spacing": {
+            $type: "dimension",
+            densest: {
+                $value: "{base.typography.space.0}"
+            },
+            denser: {
+                $value: "{base.typography.space.25}"
+            },
+            dense: {
+                $value: "{base.typography.space.50}"
+            },
+            normal: {
+                $value: "{base.typography.space.100}"
+            }
+        }
+    }
+}
