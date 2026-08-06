@@ -1,0 +1,43 @@
+{
+  text: {
+    body: {
+        $type: "typography",
+        lg: {
+            $value: {
+            fontSize: "{font.size.sm}",
+            fontFamily: "{font.family.sans}",
+            fontWeight: "{font.weight.regular}",
+            lineHeight: "{font.line-height.snug}",
+            letterSpacing: "{font.letter-spacing.normal}"
+            }
+        },
+        md: {
+            $value: {
+            fontFamily: "{font.family.sans}",
+            fontSize: "{base.typography.size.325}",
+            fontWeight: "{font.weight.regular}",
+            lineHeight: "{font.line-height.snug}",
+            letterSpacing: "{font.letter-spacing.normal}"
+            }
+        },
+        sm: {
+            $value: {
+            fontSize: "{font.size.xs}",
+            fontFamily: "{font.family.sans}",
+            fontWeight: "{font.weight.regular}",
+            lineHeight: "{font.line-height.tight}",
+            letterSpacing: "{font.letter-spacing.normal}"
+            }
+        },
+        xs: {
+            $value: {
+            fontSize: "{font.size.2xs}",
+            fontFamily: "{font.family.sans}",
+            fontWeight: "{font.weight.regular}",
+            lineHeight: "{base.typography.height.300}",
+            letterSpacing: "{font.letter-spacing.normal}"
+            }
+        }
+    }
+  }
+}

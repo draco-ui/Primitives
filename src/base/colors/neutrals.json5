@@ -31,6 +31,13 @@
             alpha: 1
           }
         },
+        "450": {
+          $value: {
+            colorSpace: "srgb",
+            components: [0.3294,0.3294,0.3294],
+            alpha: 1
+          }
+        },
         "500": {
           $value: {
             colorSpace: "srgb",

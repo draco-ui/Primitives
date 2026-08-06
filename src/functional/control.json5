@@ -1,0 +1,65 @@
+{
+    control: {
+        $type: "dimension",
+        large: {
+            gap: {
+                $value: "{base.space.150}"
+            },
+            size: {
+                $value: "{base.size.800}"
+            },
+            "padding-inline": {
+                $value: "{base.space.300}"
+            }
+        },
+        medium: {
+            $type: "dimension",
+            gap: {
+                $value: "{base.space.150}"
+            },
+            size: {
+                $value: "{base.size.650}"
+            },
+            "padding-inline": {
+                $value: "{base.space.250}"
+            }
+        },
+        small: {
+            $type: "dimension",
+            gap: {
+                $value: "{base.space.150}"
+            },
+            size: {
+                $value: "{base.size.600}"
+            },
+            "padding-inline": {
+                $value: "{base.space.200}"
+            }
+        },
+        xsmall: {
+            $type: "dimension",
+            gap: {
+                $value: "{base.space.100}"
+            },
+            size: {
+                $value: "{base.size.500}"
+            },
+            "padding-inline": {
+                $value: "{base.space.200}"
+            }
+        },
+        // !!This is just for input and radio fields (buttons should never be this small)!!
+        xsmall: {
+            $type: "dimension",
+            gap: {
+                $value: "{base.space.100}"
+            },
+            size: {
+                $value: "{base.size.500}"
+            },
+            "padding-inline": {
+                $value: "{base.space.200}"
+            }
+        }
+    }   
+}
